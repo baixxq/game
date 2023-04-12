@@ -20,4 +20,4 @@ jobs:
           sudo pip install coscmd
           coscmd config -a ${SECRET_ID} -s ${SECRET_KEY} -b ${BUCKET} -r ${REGION}
           coscmd upload -rs --delete ./ / -f
-          
+        
